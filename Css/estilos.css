@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nova+Square&family=Smooch+Sans:wght@100..900&family=Tektur:wght@400..900&display=swap');
+
+/*
+ font-family: "Dancing Script", cursive;
+ font-family: "Nova Square", sans-serif;
+ font-family: "Smooch Sans", sans-serif;
+ font-family: "Tektur", sans-serif;
+ */
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Gafata&family=Rationale&family=Seymour+One&display=swap');
+/*
+font-family: "Seymour One", sans-serif;
+ font-family: "Gafata", sans-serif;
+ font-family: "Rationale", sans-serif;
+ */
+
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
@@ -5,18 +22,19 @@ body{
 
 /* centraliza o site */
 .container{
-    width:80%;
+    width:90%;
     margin:auto;
 }
 
 /* topo */
 .navbar-topo{
-    background-color:cadetblue;
+    background-color:rgb(200, 100, 0);
     color:white;
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding:15px;
+    
 }
 
 /* menu topo */
@@ -30,6 +48,7 @@ body{
     color:white;
     text-decoration:none;
     font-weight:bold;
+    font-family: "Seymour One", sans-serif;
 }
 
 .menu-topo a:hover{
@@ -45,6 +64,7 @@ body{
 .menu-lateral{
     flex:1;
     background-color:burlywood;
+
 }
 
 .menu-lateral ul{
@@ -74,6 +94,7 @@ main{
     flex:4;
     background-color:cornflowerblue;
     display:flex;
+     font-family: "Gafata", sans-serif;
 }
 
 /* section */
@@ -87,17 +108,21 @@ main aside{
     flex:1;
     background-color:gray;
     padding:15px;
+    font-family: "Dancing Script", cursive;
 }
 
 /* rodapé */
 footer{
-    background-color:crimson;
+    background-color:green;
     color:white;
     text-align:center;
     padding:15px;
+    font-family: "Rationale", sans-serif;
+    font-size: 200px;
 }
 
 /* logo */
 .logo img{
-    width:50px;
+    width:150px;
+    margin-left: 500px;
 }
