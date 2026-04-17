@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+
+    <a class="navbar-brand" href="index.html">Padaria</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="menu" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="contato.html">Contato</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+  <h2>Cadastro de Produto</h2>
+
+  <form class="row g-3">
+
+    <div class="col-md-6">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" id="nome" class="form-control" required>
+    </div>
+
+    <div class="col-md-3">
+      <label for="valor" class="form-label">Valor</label>
+      <input type="number" id="valor" class="form-control" step="0.5" required>
+    </div>
+
+    <div class="col-md-3">
+      <label for="quantidade" class="form-label">Quantidade</label>
+      <input type="number" id="quantidade" class="form-control" required>
+    </div>
+
+    <div class="col-md-6">
+      <label for="categoria" class="form-label">Categoria</label>
+      <select id="categoria" class="form-select" required>
+        <option value="">Selecione</option>
+        <option>Pães</option>
+        <option>Bolos</option>
+        <option>Salgados</option>
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label d-block">Fabricado em</label>
+
+      <div class="form-check form-check-inline">
+        <input type="radio" name="estado" id="sp" class="form-check-input" required>
+        <label for="sp" class="form-check-label">SP</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input type="radio" name="estado" id="rj" class="form-check-input">
+        <label for="rj" class="form-check-label">RJ</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input type="radio" name="estado" id="mg" class="form-check-input">
+        <label for="mg" class="form-check-label">MG</label>
+      </div>
+
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-success">Enviar</button>
+      <button type="reset" class="btn btn-warning">Limpar</button>
+    </div>
+
+  </form>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
